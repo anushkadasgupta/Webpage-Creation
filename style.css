@@ -1,0 +1,261 @@
+.icon-container {
+    background-color: lavender;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    margin-right:100px;
+    justify-content: space-between;
+}
+.circle-icon {
+    background-color: cornflowerblue;
+    padding:10px;
+    border-radius: 50%;
+}
+.box {
+    display:flex;
+    justify-content:space-between;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.part-one {
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav {
+    height: 70%;
+    width: 0;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+ .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: black;
+}
+.sidenavtop {
+    display:flex;
+    background-color: black;
+    color: white;
+}
+h2 {
+    color: blue;
+}
+.leftnav {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width:150px;
+    border:1px;
+    padding:5px;
+    margin:1px;
+    border-style: outset;
+    height:400px;
+}
+.openbtn {
+    background-color: black;
+    color: white;
+}
+.leftnav h3 {
+    color:blue;
+    border: 1px;
+    border-radius: 12px;
+    width: 10px;
+    border: 1px solid blue;
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.middle-container {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.button {
+    background-color: blue;
+    color: white;
+    padding:10px 20px;
+    border-radius: 12px;
+    border: none;
+    height:50px;
+    margin-top: 10px;
+}
+.rightnav {
+    display:flex;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color:white;
+    background-color: black;
+}
+.rightnav-box {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width:100px;
+    border:1px;
+    padding:5px;
+    margin:1px;
+    border-style: inset;
+    height:260px;
+}
+.part-two {
+    background-color: lavender;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.container-first {
+    display: flex;
+    margin-left: 30px;
+}
+.box-one {
+    border-color:rgb(213, 216, 233);
+    width:400px;
+    border:3px;
+    padding:5px;
+    margin:3px;
+    height: 530px;
+    border-radius:12px;
+    border-style: ridge;
+}
+.heading-box-one {
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:whitesmoke;
+}
+.heading-box-one h4 {
+    margin-left:100px;
+}
+.box-two {
+    border-color:rgb(213, 216, 233);
+    width:400px;
+    border:3px;
+    padding:5px;
+    margin:3px;
+    height: 530px;
+    border-radius:12px;
+    border-style: ridge;
+}
+.heading-box-two {
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:whitesmoke;
+}
+.heading-box-two h4 {
+    margin-left:150px;
+}
+.button-two {
+    background-color: blue;
+    color: white;
+    padding:10px;
+    height:30px;
+    border:1px;
+    border-color: none;
+    border-radius: 10px;
+}
+.box-three {
+    border-color:rgb(213, 216, 233);
+    width:400px;
+    border:3px;
+    padding:5px;
+    margin:3px;
+    height: 550px;
+    border-radius:12px;
+    border-style: ridge;
+}
+.heading-box-three {
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:whitesmoke;
+}
+.heading-box-three h4 {
+    margin-left:120px;
+}
+.title-box {
+    border: 1px;
+    padding: 2px;
+    height:20px;
+    border-style: groove;
+    border-color:rgb(213, 216, 233);
+}
+.box-four {
+    border-color:rgb(213, 216, 233);
+    width:400px;
+    border:3px;
+    padding:5px;
+    margin:3px;
+    height: 500px;
+    border-radius:12px;
+    border-style: ridge;
+}
+.heading-box-four {
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:whitesmoke;
+}
+.heading-box-four h4 {
+    margin-left:150px;
+}
+.example {
+    border: 1px;
+    padding: 2px;
+    height:25px;
+    border-style: groove;
+    border-color:rgb(213, 216, 233);
+}
+.content-box {
+    border: 2px;
+    padding: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height:275px;
+    border-style: groove;
+    border-color:rgb(213, 216, 233);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.content-icons {
+    border: 2px;
+    padding: 2px;
+    height:20px;
+    border-style:ridge;
+    border-color:rgb(213, 216, 233);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.intro {
+    display:flex;
+    background-color: lavender;
+}
+.thread {
+    display:flex;
+    border: 1px;
+    padding: 2px;
+    height:25px;
+    border-style: groove;
+    border-color:rgb(213, 216, 233);
+}
+.end-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
